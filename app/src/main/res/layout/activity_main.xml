@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:layout_margin="30dp"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:gravity="right"
+        android:hint="0"
+        android:id="@+id/numView"
+        android:editable="false"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="4"
+        android:padding="30dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:textSize="30dp"
+            android:text="7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/seven"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="8"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/eight"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="9"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/nine"
+ 
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="*"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/mul"
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/four"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/five"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="6"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/six"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="-"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/sub"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/one"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/two"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/three"
+
+            />
+        <Button
+
+            android:text="+"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/add"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="C"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/clear"
+
+            />
+        <Button
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/zero"
+
+            />
+        <Button
+            android:textSize="30dp"
+            android:text="="
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/equal"
+
+            />
+
+
+
+        <Button
+            android:textSize="30dp"
+            android:text="/"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/div"
+
+            />
+
+    </GridLayout>
+</LinearLayout>
